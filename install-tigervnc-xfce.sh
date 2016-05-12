@@ -40,8 +40,8 @@ fi
 yum update
 
 # Uninstall Gnome/Desktop
-yum grouperase "Desktop" -y
-yum grouperase xfce -y
+# yum grouperase "Desktop" -y
+# yum grouperase xfce -y
 
 # Install xfce
 yum groupinstall xfce -y
